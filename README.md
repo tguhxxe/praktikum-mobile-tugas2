@@ -1,16 +1,28 @@
-# tugas_2
+# 🎬 Movie Ticket App UI (Flutter)
 
-A new Flutter project.
+Aplikasi *dummy* tiket bioskop dengan fokus pada desain UI yang modern dan gelap (dark mode), mencakup layar Login, Sign-up, dan pemilihan teater dengan fitur geolokasi. Proyek ini dibuat secara manual tanpa bantuan *tools* AI *visual generation*.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## ✨ Fitur Utama
 
-A few resources to get you started if this is your first Flutter project:
+* **Dark Mode Theming:** Penggunaan skema warna gelap (`#1A1A2E`, `#2E3B55`) untuk tampilan yang elegan.
+* **Form Authentication:** Desain layar Login dan Sign-up yang terstruktur.
+* **Social Login Mockup:** Tampilan tombol untuk integrasi login pihak ketiga (Google & Facebook).
+* **Theater Selection:** Halaman pemilihan teater dengan *list view* yang dapat diperluas.
+* **Geolocator Integration:** Fitur untuk mendeteksi dan menampilkan lokasi (kota) pengguna saat ini menggunakan *package* `geolocator`.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🛠️ Persyaratan Proyek
+
+* **Flutter SDK:** Versi 3.0.0 atau lebih baru.
+* **Dart SDK:** Versi 2.18.0 atau lebih baru.
+* **Platform:** Android / iOS.
+
+## Halaman Login ##
+![halaman_login](assets/login.png)
+## Halaman Register ##
+![halaan_daftar](assets/daftar.png)
+## Halaman Theater
+![halaman_theater](assets/theater.png)
